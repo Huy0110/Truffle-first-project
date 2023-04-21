@@ -1,0 +1,42 @@
+# Các file và thư mục được tạo bởi hệ điều hành hoặc trình biên dịch
+*.d
+*.o
+*.obj
+*.swp
+*~ 
+Thumbs.db
+Desktop.ini
+
+# Các file liên quan đến IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+*.bak
+*.cache
+*.log
+
+# Các thư mục build và output
+node_modules/
+build/
+dist/
+bin/
+
+# Các file configuration và key
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+!.env.example
+!**/.keepassxc-*.conf
+
+# Các file lock và quản lý dependency
+package-lock.json
+yarn.lock
+yarn-error.log
+npm-debug.log*
